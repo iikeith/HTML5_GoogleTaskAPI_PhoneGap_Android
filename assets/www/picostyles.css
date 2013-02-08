@@ -1,0 +1,245 @@
+    body{
+        background-image:url(loading.gif);
+        background-position:50% 50%;
+        background-attachment:fixed;
+        background-repeat:no-repeat;
+        <!--background-color: #000000; -->
+    }
+
+    .wordcolor { 
+        color:white;
+        background-color:#A8A8A8;
+    }
+
+    /*#listEditor .myformstyle {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;                
+    }*/
+
+    #listEditor .x-form-field-container {
+        margin: none;
+    }
+
+    .tasksflexbox { 
+        display: -webkit-box;
+        -webkit-box-orient: horizontal;
+        -webkit-box-align: center;
+        -webkit-transition: text-decoration 3.5s ease-out;
+        overflow: hidden;
+    }
+
+    .x-panel-body{
+        background-color: none;
+    }
+
+    .x-list {
+        $base-color: #8bc531;
+        background-color: none;
+    }
+
+    .x-list-parent {
+        background-color: none;
+    }
+
+    .x-list-item {
+        background-color: none;
+    }
+
+    .x-list-item-body { 
+        background-color: none;     
+        margin-top: -9px;
+        margin-bottom: -9px;
+        margin-left:-14px;
+        margin-right:-14px;
+        padding:0px;
+        border: 0px;
+        background-color:none;
+        overflow: hidden;
+    } 
+
+
+    .completedtext { 
+        text-decoration: line-through;
+        width: 50%;
+        overflow: hidden;         
+    }
+
+    .needsactiontext { 
+        text-decoration: none;
+        width: 50%;
+        overflow: hidden;
+    }
+
+    .space {
+        width: 10px;
+    }
+
+
+    .listTitle {
+        width: 70%;
+        overflow: hidden;
+    }
+
+    .numOfTasks {
+        position: absolute;
+        bottom: 15px;
+        right: 5px;
+    }
+
+    .listLeftNode {
+        width: 5px;
+        height: 50px;
+        background-image: url(quickselection_line.png); 
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+    }
+
+    .completedcheckbox{
+        display: block;
+        width: 30px;
+        height: 30px;
+        overflow: hidden;
+        border-style: solid;
+        border-width: 0px;
+        border-color: green;
+        background-image: url(common_checkbox_on.png); 
+        background-size: 100% 100%;
+        background-repeat:no-repeat;               
+    }
+    .needsactioncheckbox{
+        display: block;
+        width: 30px;
+        height: 30px;
+        overflow: hidden;
+        border-style: solid;
+        border-width: 0px;
+        border-color: green;
+        background-image: url(common_checkbox_off.png); 
+        background-size: 100% 100%;   
+        background-repeat:no-repeat;
+    }
+
+    .dueday {
+        position: absolute;
+        bottom: 15px;
+        right: 5px;
+        <!--float: right;-->
+    }
+
+    #listsActionSheet .androidmenuitem {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-box-align: center;
+        background-color: none;
+        width: 75px;
+        height: 75px;                           
+        font-size: small;
+        margin: 0px 25%;       
+    }
+
+    #tasksActionSheet .androidmenuitem {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-box-align: center;            
+        background-color: none;
+        width: 75px;
+        height: 75px;                           
+        font-size: small;
+        margin: 0px 39%;
+    }
+
+    /*
+    .holidayconfig {
+        labelWidth: 30%;
+        maxRows: 17;
+
+    }
+
+    .picoconfig {
+        labelWidth: '34%';   
+        maxRows: '10';
+    }
+    */
+
+    /*.myformstyle {
+        width: 50%;
+    }*/
+
+    /*.myformstyle .x-form-label {
+        width: 50%;
+    }*/
+
+    /*.myactionsheetbutton {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-box-align: center;            
+        background-color: green;
+    }*/
+
+    .androidmenuitem .onespace{
+        display: block;
+        height: 5px;
+    }
+
+    .iconadd {
+        display: block;
+        width: 42px;
+        height: 42px;                
+        background-image: url(common_icon_menu_add.png);
+        background-size: 100% 100%;
+        background-repeat:no-repeat; 
+    }
+
+    .iconsync {
+        display: block;
+        width: 42px;
+        height: 42px;                
+        background-image: url(common_icon_menu_sync.png);
+        background-size: 100% 100%;
+        background-repeat:no-repeat; 
+    }
+
+<!--
+    #listsActionSheet .x-button {
+        background-color: red;
+    }
+
+-->
+
+<!--
+    .listitemtype {
+        text-shadow: 1px 1px 1px rgba(64, 64, 64, 0.5);
+        display: -webkit-box;
+        -webkit-box-orient: horizontal;
+        -webkit-box-align: center;
+        
+    }
+
+    .itemstartpoint {
+        display: block;
+        width: 25px;
+        height: 25px;
+        border-style: solid;
+        border-width: thin;
+        border-color: blue;
+    }
+--> 
+
+<!--
+    input[type=checkbox] + label {
+      text-indent: -9999px;
+      display: block;
+      width: 150px;
+      height: 27px;
+      line-height: 27px;
+      background: transparent url(sprite2.png) no-repeat -56px 0;
+      -webkit-transition: background-position 0.3s ease-in-out;
+      -moz-transition: background-position 0.3s ease-in-out;
+    }
+
+    input[type=checkbox]:checked + label {
+      -webkit-transition: background-position 0.3s ease-in-out;
+      -moz-transition: background-position 0.3s ease-in-out;
+      background-position: -3px 0;
+    }
+-->

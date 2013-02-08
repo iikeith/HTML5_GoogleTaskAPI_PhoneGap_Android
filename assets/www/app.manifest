@@ -1,0 +1,19 @@
+CACHE MANIFEST
+
+https://iiiipoqiiii.appspot.com/static/.app.manifest
+https://iiiipoqiiii.appspot.com/static/json-minified.js
+https://iiiipoqiiii.appspot.com/static/phonegap-1.0.0.js
+https://iiiipoqiiii.appspot.com/static/common_checkbox_off.png
+https://iiiipoqiiii.appspot.com/static/common_checkbox_on.png
+https://iiiipoqiiii.appspot.com/static/index.html
+https://iiiipoqiiii.appspot.com/static/loading.gif
+https://iiiipoqiiii.appspot.com/static/quickselection_line.png
+https://iiiipoqiiii.appspot.com/static/app/app_offline.js
+https://iiiipoqiiii.appspot.com/static/touch/sencha-touch-debug.js
+https://iiiipoqiiii.appspot.com/static/touch/resources/css/android.css
+
+FALLBACK:
+https://iiiipoqiiii.appspot.com/static/index.html /index.html
+
+NETWORK:
+*
